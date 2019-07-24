@@ -1,0 +1,13 @@
+<?xml version="1.0"?>  
+<odoo> 
+ 
+
+<act_window id="action_gestion_etudiant"  
+ name="GestionEtudiant"  
+ res_model="gestion.etudiant"  
+ view_mode="tree,form"/>  
+
+<menuitem id="menu_gestion_etudiant"  
+ name="gesstion"  
+ action="action_gestion_etudiant"/>  
+</odoo>
